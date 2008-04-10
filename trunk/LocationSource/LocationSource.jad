@@ -1,0 +1,6 @@
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: Location Source
+MIDlet-Jar-URL: LocationSource.jar
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+MIDlet-Name: LocationSource
