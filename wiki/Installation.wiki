@@ -1,0 +1,17 @@
+#summary How to install Location Source.
+
+= Introduction =
+
+This page describes how to install Location Source.  Only Windows Mobile on IBM's WEME JVM is currently supported.
+
+= Windows Mobile on IBM's WEME =
+
+There are several Windows Mobile JVMs available.  IBM's [http://www-306.ibm.com/software/wireless/weme WebSphere Everyplace Micro Environment (WEME) 6.1.1] is one of the best.  Many phones come pre-installed with other JVMs, but you can [http://www-128.ibm.com/developerworks/websphere/zones/wireless/weme_eval_runtimes.html download WEME] and run it alongside them.
+
+Once WEME is running install Location Source by:
+ * Copying `jsr179-gpsid.dll` into its `bin` directory
+ * Copying `LocationSource-<version>.jar` into its `lib/jclMidp20/ext` directory
+
+Now any application can use it just by making calls to the [http://www-users.cs.umn.edu/~czhou/docs/jsr179/lapi/index.html JSR-179 API]!
+
+= (Optional) Running the Example =
