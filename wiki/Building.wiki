@@ -1,5 +1,5 @@
 #summary How to build Location Source.
-#labels f
+#labels Featured
 
 = Introduction =
 
