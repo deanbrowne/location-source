@@ -15,3 +15,12 @@ Once WEME is running install Location Source by:
 Now any application can use it just by making calls to the [http://www-users.cs.umn.edu/~czhou/docs/jsr179/lapi/index.html JSR-179 API]!
 
 = (Optional) Running the Example =
+
+Location Source does not include an example.  However, any JSR-179 application can be used.  We recommend the [http://code.google.com/p/j4me/wiki/BluetoothGPS J4ME GPS example] so you can see the actual data being passed through Location Source.
+
+To install the J4ME GPS example on WEME:
+ * Run WEME's `emulator` program (found in the `bin` directory)
+ * Type in the OTA installation URL for J4ME:  `http://www.scoreout.com/j4me/ota/`
+ * Select the "GPS Example" midlet to run
+ * When the example starts accept the default criteria for a location provider (i.e. press  "OK")
+ * Depending on the type of GPS you should see data become available within a couple of minutes
