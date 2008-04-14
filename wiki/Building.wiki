@@ -1,4 +1,5 @@
 #summary How to build Location Source.
+#labels f
 
 = Introduction =
 
